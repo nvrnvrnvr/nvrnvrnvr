@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: 
+Sitemap: mts.digital/robots.txt
