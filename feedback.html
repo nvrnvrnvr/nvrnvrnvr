@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Feedback · Sindre Sorhus</title>
+		<title>обратная связь</title>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.1/css/bulma.min.css">
 		<link rel="stylesheet" href="main.css">
 		<link rel="icon" href="/favicon.png" sizes="32x32">
@@ -20,9 +20,9 @@ $(function(){
             data: $(this).serialize(),
             success: function(response){
                 if(response.status == "success"){
-                    alert("We received your submission, thank you!");
+                    alert("Сообщение отправлено. Жди ответ на указанный email");
                 }else{
-                    alert("An error occured: " + response.message);
+                    alert("Упс, ошибка: " + response.message);
                 }
             }
         });
@@ -45,25 +45,25 @@ $(function(){
 							<form action="https://formcarry.com/s/8emc952TmMC" method="POST" accept-charset="UTF-8" >
 								<input type="hidden" name="_gotcha">
 								<div class="field">
-									<label class="label" for="name">Name</label>
+									<label class="label" for="name">Как тебя зовут?</label>
 									<div class="control">
 										<input class="input is-medium" type="text" name="name" autocomplete="name">
 									</div>
 								</div>
 								<div class="field">
-									<label class="label" for="email">Email*</label>
+									<label class="label" for="email">Email для получения ответа*</label>
 									<div class="control">
 										<input class="input is-medium" type="email" name="email" autocomplete="email" required>
 									</div>
 								</div>
 								<div class="field">
-									<label class="label" for="message">Message*</label>
+									<label class="label" for="message">Сообщение*</label>
 									<div class="control">
-										<textarea class="textarea is-medium" placeholder="I'm a human. Please be nice." name="message" minlength="20" rows="7" required autofocus></textarea>
+										<textarea class="textarea is-medium" placeholder="Будь котиком, ну" name="message" minlength="20" rows="7" required autofocus></textarea>
 									</div>
 								</div>
 								<div class="field">
-									<label class="label" for="email">Attachments</label>
+									<label class="label" for="email">Добавить файл</label>
 									<div class="control">
 										<input type="file" name="attachments" multiple>
 									</div>
@@ -71,7 +71,7 @@ $(function(){
 								<br>
 								<div class="field">
 									<div class="control">
-										<button class="button is-medium is-primary is-info" type="submit">Send Feedback</button>
+										<button class="button is-medium is-primary is-info" type="submit">Отправить</button>
 									</div>
 								</div>
 							</form>
