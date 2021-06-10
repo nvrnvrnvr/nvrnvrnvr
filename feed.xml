@@ -1,29 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
 
-<rss xmlns:yandex="http://news.yandex.ru" xmlns:media="http://search.yahoo.com/mrss/"
- xmlns:turbo="http://turbo.yandex.ru" version="2.0">
- <channel>
- <turbo:cms_plugin>MaxImco Genarator</turbo:cms_plugin>
- <title>МТС Digital: мутанты танцуют стоя</title>
- <link>https://mts.digital</link>
- <description>МТС Digital: мутанты, телеком, диджитал и танцы</description>
- <language>ru</language>
- <author>https://mts.digital</author>
- <yandex:analytics type="Yandex" id="80552173"/>
 <item turbo="true">
- 
- <description>МТС Digital: мутанты танцуют стоя</description>
- <title>МТС Digital</title><link>https://mts.digital/</link><category>Официальный сайт</category>
- <turbo:content><![CDATA[<header><menu><a href='https://mts.digital'>Главная</a></menu></header>
- <a href="https://mts.digital/feedback">
- 
- 
- 
- <br>
- <br>
- 
- 
- 
- 
- <a href="https://mts.digital/feedback">SAY "Hi"</a>
- </turbo:content></item></channel></rss>
+  <title>МТС Диджитал </title>
+  <link>https://mts.digital</link>
+  <turbo:content>
+    <![CDATA[
+     
+        <h2>паноктикум инкорпорейтед</h2>
+        <figure>
+          <img src="https://i.pinimg.com/originals/ae/e7/2f/aee72fd7530ce5deae7209ffe6df76c0.gif">
+        </figure>
+         <a href="https://mts.digital/feedback">SAY "Hi"</a>
+    ]]>
+    </turbo:content>
+</item>
+      
